@@ -5,6 +5,7 @@ the primary hash is used for selecting the bucket,
 and the secondary hash is used for identifying the slot within that bucket.
  Each bucket slot stores a boolean to indicate the presence or absence of the key, 
  making insertion, deletion, and search operations efficient.
+ Time Complexity:O(1)
 '''
 class MyHashSet(object):
 
